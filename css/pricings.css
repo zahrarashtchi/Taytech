@@ -1,0 +1,106 @@
+.pricing-item {
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 4px; }
+  .pricing-item .pricing-header {
+    padding: 30px 0;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 25px;
+    position: relative;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; }
+  .pricing-item .pricing-header::before {
+    position: absolute;
+    content: "";
+    background: transparent;
+    border: 19px solid transparent;
+    bottom: -38px;
+    left: 50%;
+    transform: translateX(-50%); }
+  .pricing-item .dollar {
+    vertical-align: super;
+    font-size: 25px;
+    font-weight: normal;
+    margin-right: -6px; }
+
+.pricing-item.color1 .pricing-header {
+  background: #83c331; }
+
+.pricing-item.color1 .pricing-header::before {
+  border-top: 20px solid #83c331; }
+
+.pricing-item.color2 .pricing-header {
+  background: #0fc996; }
+
+.pricing-item.color2 .pricing-header::before {
+  border-top: 20px solid #0fc996; }
+
+.pricing-layout1 .pricing-item {
+  padding: 30px 0 15px; }
+  .pricing-layout1 .pricing-item .pricing-header {
+    margin-bottom: 0;
+    padding: 0; }
+    .pricing-layout1 .pricing-item .pricing-header .pricing-title {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: normal;
+      margin-bottom: 20px;
+      font-size: 1.2rem; }
+  .pricing-layout1 .pricing-item .pricing-body .pricing-price {
+    margin-bottom: 20px;
+    color: #3b3d42; }
+    .pricing-layout1 .pricing-item .pricing-body .pricing-price span {
+      font-weight: bold;
+      font-size: 28px;
+      color: #111; }
+  .pricing-layout1 .pricing-item .pricing-body .pricing-bar {
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 0;
+    font-size: 17px;
+    margin-bottom: 20px; }
+  .pricing-layout1 .pricing-item .pricing-body .pricing-options {
+    margin-bottom: 30px;
+    line-height: 33px;
+    font-size: 15.5px; }
+
+@media screen and (min-width: 992px) {
+  .pricing-layout1 .column:nth-child(2) {
+    position: relative;
+    right: -15px; }
+  .pricing-layout1 .column:last-child {
+    position: relative;
+    left: -15px; }
+  .pricing-layout1 .column:nth-child(3) {
+    padding: 0;
+    z-index: 99;
+    margin-top: -55px; }
+    .pricing-layout1 .column:nth-child(3) .pricing-item {
+      padding: 40px 0 30px; }
+      .pricing-layout1 .column:nth-child(3) .pricing-item .pricing-header {
+        margin-bottom: 0px;
+        padding: 0; }
+        .pricing-layout1 .column:nth-child(3) .pricing-item .pricing-header .pricing-title {
+          margin-bottom: 35px; }
+        .pricing-layout1 .column:nth-child(3) .pricing-item .pricing-header .icon-box {
+          width: 100px;
+          height: 100px;
+          margin-bottom: 25px; }
+          .pricing-layout1 .column:nth-child(3) .pricing-item .pricing-header .icon-box i {
+            font-size: 50px; }
+      .pricing-layout1 .column:nth-child(3) .pricing-item .pricing-body .pricing-title {
+        margin-bottom: 22px;
+        color: #3b3d42;
+        font-size: 18px; }
+        .pricing-layout1 .column:nth-child(3) .pricing-item .pricing-body .pricing-title span {
+          font-size: 33px; }
+      .pricing-layout1 .column:nth-child(3) .pricing-item .pricing-body .pricing-bar {
+        padding: 13px 0;
+        margin-bottom: 20px;
+        font-size: 20px; }
+      .pricing-layout1 .column:nth-child(3) .pricing-item .pricing-body .pricing-options {
+        margin-bottom: 55px;
+        line-height: 33px;
+        font-size: 16.5px; } }

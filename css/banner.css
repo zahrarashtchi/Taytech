@@ -1,0 +1,174 @@
+.banner .row h1, .banner .row span, .banner .row .btn {
+  color: #fff; }
+
+.banner .row .banner-leader-text {
+  font-weight: 100;
+  margin-bottom: 7px;
+  display: inline-block;
+  font-size: 16px !important;
+  line-height: 28px !important; }
+
+.hesperiden.tparrows {
+  background: transparent !important;
+  display: none;
+  font-weight: normal; }
+
+.tp-leftarrow::before {
+  content: "\f104" !important;
+  font-family: "FontAwesome" !important;
+  font-size: 40px !important; }
+
+.tp-rightarrow::before {
+  content: "\f105" !important;
+  font-family: "FontAwesome" !important;
+  font-size: 40px !important; }
+
+.flexslider {
+  border: 0; }
+  .flexslider li {
+    position: relative; }
+    .flexslider li .background {
+      height: 550px; }
+    .flexslider li .container {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      display: none; }
+      .flexslider li .container .row {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: calc(50% + 30px);
+        transform: translate3d(0, -50%, 0); }
+  .flexslider li.flex-active-slide .container {
+    display: block; }
+
+.banner .before-feautured-word {
+  font-size: 17px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 300; }
+
+.banner .before-feautured-word.little-spacy {
+  color: #fff;
+  letter-spacing: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0px; }
+
+.banner .feautured-word {
+  padding: 0.4em 0;
+  font-size: 29px;
+  line-height: 37px;
+  font-weight: 700;
+  margin-bottom: 10px; }
+
+.banner .after-featured-word {
+  max-width: 700px;
+  color: #fff;
+  line-height: 1.7;
+  font-size: 13px;
+  margin: 0px auto 25px; }
+
+.vertical-dots .flex-control-paging {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  bottom: auto;
+  top: calc(50% + 30px);
+  transform: translate3d(0, -50%, 0);
+  right: 4%;
+  display: none; }
+  .vertical-dots .flex-control-paging li {
+    margin-bottom: 35px; }
+    .vertical-dots .flex-control-paging li a {
+      width: 14px;
+      height: 14px;
+      box-shadow: none;
+      border: 1px solid #fff;
+      background: transparent; }
+    .vertical-dots .flex-control-paging li a:hover {
+      background: #fff; }
+    .vertical-dots .flex-control-paging li a.flex-active {
+      background: #fff; }
+
+.flexslider .flex-direction-nav {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  display: none; }
+
+.image-flex-direction-nav .flex-direction-nav a {
+  width: auto;
+  height: auto; }
+
+.image-flex-direction-nav .flex-direction-nav a::before {
+  content: "";
+  width: 45px;
+  height: 45px; }
+
+.image-flex-direction-nav .flex-direction-nav a.flex-prev::before {
+  background: url("../pictures/prev.png") no-repeat center/contain;
+  transform: rotateX(180deg); }
+
+.image-flex-direction-nav .flex-direction-nav a.flex-next::before {
+  background: url("../pictures/next.png") no-repeat center/contain;
+  transform: rotateX(180deg); }
+
+.fixed-flex-direction-nav .flex-direction-nav a.flex-prev {
+  left: 10px;
+  opacity: 0.6; }
+
+.fixed-flex-direction-nav .flex-direction-nav a.flex-next {
+  right: 10px;
+  opacity: 0.6; }
+
+@media screen and (min-width: 490px) {
+  .banner br {
+    display: block !important; } }
+
+@media screen and (min-width: 576px) {
+  .banner .before-feautured-word {
+    font-size: 20px; }
+  .banner .after-featured-word {
+    font-size: 17px;
+    margin: 0px auto 40px; }
+  .banner .feautured-word {
+    font-size: 45px;
+    line-height: 55px; }
+  .flexslider li .background {
+    height: 600px; } }
+
+@media screen and (min-width: 768px) {
+  .banner .before-feautured-word {
+    font-size: 23px; }
+  .banner .feautured-word {
+    font-size: 55px;
+    line-height: 65px; }
+  .hesperiden.tparrows {
+    display: block; }
+  .flexslider li .background {
+    height: 700px; } }
+
+@media screen and (min-width: 992px) {
+  .banner .before-feautured-word.little-spacy {
+    font-size: 18px;
+    font-weight: 400; }
+  .banner .feautured-word {
+    font-size: 65px;
+    line-height: 75px; }
+  .banner .after-featured-word {
+    font-size: 19px; }
+  .vertical-dots .flex-control-paging {
+    display: flex; }
+  .flexslider .flex-direction-nav {
+    display: block; }
+  .flexslider li .background {
+    height: 1000px; } }
+
+@media screen and (min-width: 1200px) {
+  .vertical-dots .flex-control-paging {
+    display: flex;
+    right: 13%; } }

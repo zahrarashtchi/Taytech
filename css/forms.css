@@ -1,0 +1,65 @@
+.form-field {
+  border: 0;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 0; }
+
+.form-control {
+  border-radius: 4px !important;
+  padding: 10px !important;
+  border: 1px solid #cecece !important; }
+
+.form-control:focus {
+  box-shadow: unset; }
+
+textarea.form-control {
+  text-align: left;
+  height: 140px;
+  background: #fff;
+  line-height: 25px; }
+
+form.gray-wide .form-control, form.gray-wide select {
+  padding: 15px !important;
+  padding-left: 20px !important;
+  background: #f6f5f5 !important;
+  border: 0 !important; }
+
+form.gray-wide .form-control::placeholder {
+  color: #777777 !important; }
+
+form.gray-wide select {
+  height: inherit !important;
+  color: #9c9c9c !important; }
+  form.gray-wide select option {
+    color: #777777; }
+
+form.gray-wide .select-selected {
+  width: 100%;
+  text-align: left;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  color: #777777;
+  font-size: inherit;
+  background: #f6f5f5 !important;
+  border: 0;
+  padding-left: 20px; }
+
+form.gray-wide .select-selected::after {
+  right: 10px;
+  left: auto;
+  color: #777777; }
+
+form.gray-wide .select-items {
+  width: 100%;
+  text-align: left;
+  background: #f6f5f5 !important; }
+  form.gray-wide .select-items div {
+    color: #777777;
+    padding: 4px 0;
+    padding-left: 20px;
+    line-height: 35px;
+    transition: all 0.3s; }
+  form.gray-wide .select-items div:hover {
+    color: #fff;
+    background: #5b5959; }
